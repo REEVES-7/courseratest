@@ -1,0 +1,38 @@
+# Basic Operations:
+
+1. Initializing a Repository:
+   git init
+
+2. Cloning a Repository:
+   git clone <repository_url>
+
+3. Checking Status:
+   git status
+
+4. Adding Changes:
+   git add <file(s)>
+   # To stage all changes:
+   git add .
+
+5. Committing Changes:
+   git commit -m "Your commit message"
+
+6. Viewing Commit History:
+   git log
+
+7. Creating Branches:
+   git branch <branch_name>
+   # To switch to a branch:
+   git checkout <branch_name>
+   # Or create and switch in one command:
+   git checkout -b <branch_name>
+
+8. Merging Branches:
+   git merge <source_branch>
+
+9. Pulling Changes:
+   git pull origin <branch_name>
+
+10. Pushing Changes:
+    git push origin <branch_name>
+
